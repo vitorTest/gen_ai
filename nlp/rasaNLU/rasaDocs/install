@@ -1,0 +1,14 @@
+# link
+< https://rasa.com/docs/getting-started/
+
+> pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+!!! Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-VoONVC/rasa-x/
+> pip install --upgrade setuptools
+
+!!! No matching distribution found for aiohttp~=3.5 (from rasa-x)
+#  akelad commented on Jun 6 •
+# python 2.7 is not supported, please upgrade to 3.x instead. 
+# This will be why it can't find a matching distribution.
+# So I will try:
+> pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
