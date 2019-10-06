@@ -1,0 +1,6 @@
+The command:
+
+> jupyter notebook list
+
+will show you the URLs of running servers with their tokens, 
+which you can copy and paste into your browser.

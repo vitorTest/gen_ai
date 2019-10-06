@@ -1,0 +1,9 @@
+Previously I installed nltk...
+
+Copy a excerpt fo text from:
+https://www.scientificamerican.com/article/cosmic-conflict-diverging-data-on-universes-expansion-polarizes-scientists1/
+
+and save it as:
+cosmic_conflict.txt
+
+All the commands are described in the 6-basicNLTK.ipynb file

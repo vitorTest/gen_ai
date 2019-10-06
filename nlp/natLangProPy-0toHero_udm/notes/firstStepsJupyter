@@ -1,0 +1,36 @@
+To install Jupyter notebooks in a conda environment, use 
+> conda install jupyter notebook.
+
+Jupyter notebooks are also available through 
+> pip with pip install jupyter notebook.
+
+To start a notebook server, enter 
+> jupyter notebook
+
+That does not work... I don't know exactly how this works, but I think that
+I have to activate conda first... But Do I have to create another environment?
+
+To create another environment I had to consulting the udacity mini-course:
+https://classroom.udacity.com/courses/ud1111 
+
+Using 'conda env list' I see that there is only onee environment (base).
+So I don't know if this is necessary, but I'll to create e new env for 
+the course:
+> conda create -n udmNLPpy-hero
+
+I have created the file in the wrong path (I think so), so I remove it:
+> conda env remove -n udmNLPpy-hero 
+
+To see the created envs:
+> conda env list
+
+So, to activate it (I changed the name):
+> conda activate udmNLPy0-hero
+
+The path don't change (hue), the folder's course only will to have some notes.
+
+The command 'jupyter notebook' still not working.
+Now within the activated environment I'll try to install again:
+> conda install jupyter notebook
+
+voilà! (yep, sometimes I'm very stupid. It was so obvious!).
